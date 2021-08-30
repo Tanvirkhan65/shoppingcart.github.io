@@ -1,0 +1,14 @@
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.products{
+    display: inline-block;
+    margin-right: 6rem;
+}
+.cart{
+    margin-top: 50px;
+}
+ul{
+    list-style: none;
+}

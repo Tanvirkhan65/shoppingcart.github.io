@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goriber Dokan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="text-center">Goriber Dokan</h1>
+        <input
+          class="searchBar rounded-pill d-flex p-3 m-5 fs-3 col-12"
+          type="search"
+          name=""
+          placeholder="Search your product"
+        />
+      </header>
+
+      <div class="productContainer">
+        <div class="products">
+          <a href=""
+            ><img
+              class="rounded-pill"
+              src="https://images.unsplash.com/photo-1625852043440-f7ed5aff1519?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+              alt=""
+              height="200px"
+              width="200px"
+          /></a>
+          <h1 class="productName">perfume</h1>
+          <h2>$<span class="price">20</span></h2>
+          <button
+            type="button"
+            class="addToCart btn-danger"
+            data-product-Id="1"
+          >
+            ADD TO CART
+          </button>
+        </div>
+        <div class="products">
+          <a href=""
+            ><img
+              class="rounded-pill"
+              src="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=807&q=80"
+              alt=""
+              height="200px"
+              width="200px"
+          /></a>
+          <h1 class="productName">watch</h1>
+          <h2>$<span class="price">150</span></h2>
+          <button
+            type="button"
+            class="addToCart btn-danger"
+            data-product-Id="2"
+          >
+            ADD TO CART
+          </button>
+        </div>
+        <div class="products">
+          <a href=""
+            ><img
+              class="rounded-pill"
+              src="https://images.unsplash.com/photo-1508296695146-257a814070b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              alt=""
+              height="200px"
+              width="200px"
+          /></a>
+          <h1 class="productName">Rayburn glass</h1>
+          <h2>$<span class="price">50</span></h2>
+          <button
+            type="button"
+            class="addToCart btn-danger"
+            data-product-Id="3"
+          >
+            ADD TO CART
+          </button>
+        </div>
+        <div class="products">
+          <a href=""
+            ><img
+              class="rounded-pill"
+              src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              alt=""
+              height="200px"
+              width="200px"
+          /></a>
+          <h1 class="productName">bike</h1>
+          <h2>$<span class="price">1500</span></h2>
+          <button
+            type="button"
+            class="addToCart btn-danger"
+            data-product-Id="4"
+          >
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+      <div class="cart">
+        <h1>your carts</h1>
+        <ul class="buyItem"></ul>
+      </div>
+      <div class="sumPrice">
+        <h1>total price</h1>
+        <h2>$<span class="sumPrice"></span></h2>
+      </div>
+    </div>
+  </body>
+</html>
